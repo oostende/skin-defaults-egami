@@ -9,17 +9,6 @@ dist_install_DATA =     ask.png \
     dish_scan.png \
     dish.png \
     DVI.png \
-    epgclock_add.png \
-    epgclock_autotimer.png \
-    epgclock_post.png \
-    epgclock_pre.png \
-    epgclock_prepost.png \
-    epgclock_selpost.png \
-    epgclock_selpre.png \
-    epgclock_selprepost.png \
-    epgclock_zap.png \
-    epgclock_zaprec.png \
-    epgclock.png \
     expandable-plugins.png \
     expandable.png \
     expanded.png \
@@ -145,7 +134,6 @@ dist_install_DATA =     ask.png \
     timer_wait.png \
     timer_zap.png \
     trashcan.png \
-    unhandled-key-night.png \
     unhandled-key.png \
     unlock.png \
     unlockBouquet.png \

@@ -6,6 +6,14 @@ install_DATA = BorderBottom.png \
     BorderTop.png \
     CurrentEvent.png \
     CurrentService.png \
+	epgclock.png \
+	epgclock_add.png \
+	epgclock_autotimer.png \
+	epgclock_post.png \
+	epgclock_pre.png \
+	epgclock_prepost.png \
+	epgclock_zap.png \
+	epgclock_zaprec.png \
     information.png \
     now_next_more_on.png \
     now_next_more.png \
@@ -21,8 +29,8 @@ install_DATA = BorderBottom.png \
     SelectedInformation.png \
     SelectedRecordEvent.png \
     SelectedZapEvent.png \
+	TimeLineDate.png \
     timeline-now-pig.png \
     timeline-now.png \
-    TimeLineDate.png \
     TimeLineTime.png \
     ZapEvent.png
