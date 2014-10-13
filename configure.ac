@@ -13,10 +13,12 @@ fonts/Makefile
 skin_default/Makefile
 skin_default/buttons/Makefile
 skin_default/countries/Makefile
+skin_default/crossepg/Makefile
 skin_default/epg/Makefile
 skin_default/extensions/Makefile
 skin_default/icons/Makefile
 skin_default/infobar/Makefile
 skin_default/piconbg/Makefile
 skin_default/screens/Makefile
+skin_default/vixcore/Makefile
 ])
