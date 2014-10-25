@@ -9,6 +9,7 @@ dist_install_DATA =     ask.png \
     dish_scan.png \
     dish.png \
     DVI.png \
+	encrypted.png \
     expandable-plugins.png \
     expandable.png \
     expanded.png \
@@ -55,6 +56,7 @@ dist_install_DATA =     ask.png \
     icon_txt.png \
     icon_unstableupdate.png \
     icon_update_off.png \
+	info.png \
     input_error.png \
     input_info.png \
     input_keyboard-configured.png \
