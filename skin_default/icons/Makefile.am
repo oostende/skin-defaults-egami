@@ -89,6 +89,7 @@ dist_install_DATA =     ask.png \
     network_wireless-inactive.png \
     network_wireless.png \
     newtop.png \
+	nowplaying.png \
     oldtop.png \
     part_0_4.png \
     part_1_4.png \
