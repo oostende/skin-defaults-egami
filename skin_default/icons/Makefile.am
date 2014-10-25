@@ -25,8 +25,6 @@ dist_install_DATA =     ask.png \
     ico_dvb-t.png \
     ico_event.png \
     ico_folder.png \
-    ico_hbbtv_off.png \
-    ico_hbbtv_on.png \
     ico_mp_forward.png \
     ico_mp_pause.png \
     ico_mp_play.png \
@@ -37,25 +35,9 @@ dist_install_DATA =     ask.png \
     ico_replay.png \
     ico_service_group.png \
     ico_stream.png \
-    ico_sub_off.png \
-    ico_sub_on.png \
     ico_view.png \
-    icon_crypt_off.png \
     icon_crypt.png \
-    icon_dolby_off.png \
-    icon_dolby.png \
     icon_event.png \
-    icon_format_off.png \
-    icon_format.png \
-    icon_hd_off.png \
-    icon_hd_on.png \
-    icon_rec_off.png \
-    icon_rec.png \
-    icon_stableupdate.png \
-    icon_txt_off.png \
-    icon_txt.png \
-    icon_unstableupdate.png \
-    icon_update_off.png \
 	info.png \
     input_error.png \
     input_info.png \
