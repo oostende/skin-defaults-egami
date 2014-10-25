@@ -19,6 +19,7 @@ skin_default/extensions/Makefile
 skin_default/icons/Makefile
 skin_default/imdb/Makefile
 skin_default/infobar/Makefile
+skin_default/menuicons/Makefile
 skin_default/piconbg/Makefile
 skin_default/screens/Makefile
 skin_default/vixcore/Makefile
