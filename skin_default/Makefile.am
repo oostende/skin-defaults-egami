@@ -1,4 +1,4 @@
-SUBDIRS = buttons countries crossepg epg extensions icons imdb infobar logos menuicons ondemand piconbg pvr screens vixcore
+SUBDIRS = buttons countries crossepg epg extensions icons imdb infobar logos menuicons ondemand piconbg pvr screens spinner vixcore
 
 installdir = $(datadir)/enigma2/skin_default
 dist_install_DATA = arrowdown.png \
