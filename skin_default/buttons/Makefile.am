@@ -38,6 +38,7 @@ dist_install_DATA = blue_pressed.png \
     key-red.png \
     key-yellow.png \
     mp_buttons.png \
+	ok.png \
     rec.png \
     red-big.png \
     red.png \
