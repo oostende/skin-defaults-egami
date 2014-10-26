@@ -335,6 +335,9 @@
 	<screen name="MenuMyMenuText">
 		<eLabel text="MyMenu" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1"/>
 	</screen>
+	<screen name="MenuMyHelpText">
+		<eLabel text="MyHelp" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1"/>
+	</screen>
 	<screen name="MenuMySetupText">
 		<eLabel text="MySetup" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1"/>
 	    <ePixmap position="250,210" size="256,256" pixmap="menuicons/setup.png" alphatest="blend" zPosition="1"/>

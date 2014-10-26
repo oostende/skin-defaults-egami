@@ -805,9 +805,20 @@
 	</screen>
 	
 	<!-- ## Help Screen ## -->
-	<screen name="HelpMenu" position="0,0" size="1280,720" flags="wfNoBorder">
-		<panel name="BigMenuPanel" />
-		<panel name="MenuMySetupText" />
+	<screen name="HelpMenu" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="MenuClock" />
+	    <panel name="TopMenuBlock" />
+	    <panel name="LeftMenuBlock" />
+		<panel name="CenterMenuBlock" />
+		<panel name="BigRightMenuBlock" />
+		<panel name="FarRightMenuBlock" />
+		<panel name="BottomMenuBlock" />
+		<panel name="MenuTitle" />
+		<panel name="MenuUpArrow" />
+		<panel name="MenuLeftArrow" />
+		<panel name="FarRightMenuRightArrow" />
+		<panel name="MenuDownArrow" />
+		<panel name="MenuMyHelpText" />
 		<panel name="MenuListWidget" />
 		<panel name="WizardRemote" />
 		<panel name="WizardRemoteArrowDown" />
@@ -2114,13 +2125,14 @@
 		<panel name="MenuButtonBlue" />
 	</screen>
 	<screen name="SelectSatsEntryScreen" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="">
-		<panel name="BasicTemplate"/>
-		<panel name="Red1Panel"/>
-		<panel name="Green1Panel"/>
-		<panel name="Yellow1Panel"/>
-		<panel name="Blue1Panel"/>
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMyTunersText" />
 		<panel name="MenuListWidget" />
 		<widget name="hint" position="80,765" size="590,150" font="youvix-r;22" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="center" valign="center" zPosition="1"/>
+	    <panel name="MenuButtonRed" />
+		<panel name="MenuButtonGreen" />
+		<panel name="MenuButtonYellow" />
+		<panel name="MenuButtonBlue" />
 	</screen>
 	
 	<!-- ## Unhandled Key ## -->
@@ -2164,7 +2176,7 @@
 	<screen name="VIXDevicesPanel" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="BigMenuPanel" />
 		<panel name="MenuMySetupText" />
-		<widget name="lab1" position="680,165" size="1160,650" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="center" valign="center" zPosition="1" />
+		<widget name="lab1" position="680,165" size="1160,650" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="center" valign="center" zPosition="1" />
 		<widget source="list" render="Listbox" position="680,165" size="1160,650" selectionPixmap="selectionbars/SelectionBar_H130x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" scrollbarMode="showOnDemand" zPosition="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
