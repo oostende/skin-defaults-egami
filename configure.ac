@@ -25,6 +25,7 @@ skin_default/ondemand/Makefile
 skin_default/piconbg/Makefile
 skin_default/pvr/Makefile
 skin_default/screens/Makefile
+skin_default/selectionbars/Makefile
 skin_default/spinner/Makefile
 skin_default/vixcore/Makefile
 ])
