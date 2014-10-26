@@ -24,6 +24,10 @@ dist_install_DATA = arrowdown.png \
     progress_small.png \
     rc.png \
     rcold.png \
+	skin_YouViX.xml \
+	skin_YouViX_ExtPlugins.xml \
+	skin_YouViX_Templates.xml \
+	skin_YouViX_Wizards.xml \
     slider_back.png \
     slider.png \
     vkey_icon.png
