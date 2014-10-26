@@ -1,13 +1,17 @@
 installdir = $(datadir)/enigma2/skin_default/icons
 
-dist_install_DATA =     ask.png \
-    az.png \
+dist_install_DATA =     133.png \
+    178.png \
+	ask.png \
+	az.png \
     backward_large.png \
     backward.png \
     blank.png \
     clock.png \
     dish_scan.png \
     dish.png \
+	dolbydigital.png \
+	dolbyprologic.png \
     DVI.png \
 	encrypted.png \
     expandable-plugins.png \
@@ -19,6 +23,9 @@ dist_install_DATA =     ask.png \
     forward_large.png \
     forward.png \
     fza.png \
+	hbbtv.png \
+	hd720.png \
+	hd1080.png \
     HDMI.png \
     ico_dvb-c.png \
     ico_dvb-s.png \
@@ -105,6 +112,9 @@ dist_install_DATA =     ask.png \
     scan-t.png \
     Scart-YPbPr.png \
     Scart.png \
+	sd480.png \
+	sd540.png \
+	sd576.png \
     shuffle.png \
     slow_large.png \
     slow.png \
