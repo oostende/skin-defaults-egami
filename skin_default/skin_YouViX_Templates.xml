@@ -78,7 +78,7 @@
 	<screen name="InfobarRecIcon">
 <!--	    <ePixmap pixmap="icons/record.png" position="740,937" size="30,30" zPosition="0" alphatest="blend" />  -->
 		<widget source="session.RecordState" render="Pixmap" pixmap="icons/record.png" position="740,937" size="30,30" zPosition="1" backgroundColor="lightcolour" alphatest="blend">
-			<convert type="ConditionalShowHide">Blink</convert>
+			<convert type="ConditionalShowHide">Blink,1000</convert>
 		</widget>
 	</screen>
 	<screen name="InfobarProgramNowName">
@@ -147,10 +147,10 @@
 		</widget>
  		<!-- <ePixmap pixmap="buttons/green.png" position="1665,982" size="35,35" zPosition="1" alphatest="blend" /> -->
 		<widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="buttons/green.png" position="1665,982" size="35,35" zPosition="1" alphatest="blend" >
-			<convert type="ConditionalShowHide">Blink</convert>
+			<convert type="ConditionalShowHide">Blink,1000</convert>
 		</widget>
 		<widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="buttons/red.png" position="1665,982" size="35,35" zPosition="1" alphatest="blend" >
-			<convert type="ConditionalShowHide">Blink</convert>
+			<convert type="ConditionalShowHide">Blink,1000</convert>
 		</widget>
 	</screen>
 	<screen name="InfobarPicon">
