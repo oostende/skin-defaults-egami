@@ -2142,7 +2142,7 @@
 				}
 			</convert>
 		</widget>
-		<widget source="menu" render="Listbox" position="680,165" size="1160,650" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" foregroundColor="white" backgroundColor="menubackground" scrollbarMode="showNever" selectionDisabled="1" transparent="1" zPosition="1">
+		<widget source="menu" render="Listbox" position="680,165" size="1160,650" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" foregroundColor="white" backgroundColor="lightcolour" scrollbarMode="showNever" selectionDisabled="1" transparent="1" zPosition="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
 				MultiContentEntryText(pos = (0,0),size = (1155,50),flags = RT_HALIGN_RIGHT|RT_VALIGN_CENTER|RT_WRAP,text = 2), # index 0 is the MenuText,
