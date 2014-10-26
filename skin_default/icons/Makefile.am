@@ -2,10 +2,15 @@ installdir = $(datadir)/enigma2/skin_default/icons
 
 dist_install_DATA =     133.png \
     178.png \
+	arrow-down.png \
+	arrow-up.png \
+	arrow-left.png \
+	arrow-right.png \
 	ask.png \
 	az.png \
     backward_large.png \
     backward.png \
+	ber_bar.png \
     blank.png \
     clock.png \
     dish_scan.png \
@@ -118,6 +123,7 @@ dist_install_DATA =     133.png \
     shuffle.png \
     slow_large.png \
     slow.png \
+	snr_bar.png \
     stop_large.png \
     stop.png \
     timer_autotimer.png \

@@ -23,7 +23,9 @@ dist_install_DATA = blue_pressed.png \
     key_8.png \
     key_9.png \
     key_blue.png \
+	key_epg.png \
     key_green.png \
+	key_help.png \
     key_info.png \
     key_menu.png \
     key_ok.png \
