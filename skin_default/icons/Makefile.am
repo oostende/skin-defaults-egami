@@ -66,6 +66,7 @@ dist_install_DATA =     ask.png \
     movielist.png \
     mp_buttons.png \
     mp_wb_buttons.png \
+	mute.png \
     network_wired-active.png \
     network_wired-inactive.png \
     network_wired.png \
