@@ -330,7 +330,7 @@
 	<screen name="AudioSelection" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="BigMenuPanel" />
 		<panel name="MenuMySetupText" />
-		<widget name="config" position="1025,165" size="545,500" font="youvix-r;28" itemHeight="50" selectionPixmap="selectionbars/SelectionBar_H50x545.png" foregroundColor="white" backgroundColor="menubackground2" transparent="1" scrollbarMode="showOnDemand" />
+		<widget name="config" position="1025,165" size="545,400" font="youvix-r;28" itemHeight="50" selectionPixmap="selectionbars/SelectionBar_H50x545.png" foregroundColor="white" backgroundColor="menubackground2" transparent="1" scrollbarMode="showOnDemand" />
 		<widget source="key_red" render="Pixmap" pixmap="buttons/red.png" position="980,172" size="35,35" alphatest="blend" zPosition="1">
 			<convert type="ConditionalShowHide" />
 		</widget>
@@ -343,7 +343,7 @@
 		<widget source="key_blue" render="Pixmap" pixmap="buttons/blue.png" position="980,321" size="35,35" alphatest="blend" zPosition="1">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="streams" render="Listbox" position="680,670" size="1160,200" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" foregroundColor="white" backgroundColor="menubackground2" transparent="1" scrollbarMode="showOnDemand">
+		<widget source="streams" render="Listbox" position="680,570" size="1160,300" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" foregroundColor="white" backgroundColor="menubackground2" transparent="1" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 				{"templates":
 				{"default": (50, [
