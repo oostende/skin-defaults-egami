@@ -1,0 +1,189 @@
+<skin>
+	<!--  Skin: YouViX by rossi2000 & simonsez  -->
+	<!--  Enigma2-Plugins FILE -->
+	<!--  This skin is a Freeware. Everyone can modify and use it in other images.  -->
+	<!--  BUT DO NOT REMOVE OR CHANGE THIS HEADER !!!  -->
+	<!--  Do whatever you want with this skin, but don't tell it's yours, or your idea!  -->
+	
+	<!--  ## Head ##  -->
+	
+	<!-- ## Dream Explorer ## -->
+	<screen name="DreamExplorerII" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="Dream Explorer">
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMySetupText" />
+		<widget name="filelist" position="680,165" size="1160,750" font="youvix-r;28" itemHeight="50" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1"/>
+		<panel name="MenuMenuButton" />
+		<panel name="MenuInfoButton" />
+		<panel name="MenuButtonRed" />
+		<eLabel text="Delete" position="120,987" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1"/>
+		<panel name="MenuButtonGreen" />
+		<eLabel text="Rename" position="120,1033" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1"/>
+		<panel name="MenuButtonYellow" />
+		<eLabel text="Move/Copy" position="363,987" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<panel name="MenuButtonBlue" />
+		<eLabel text="Bookmarks" position="363,1031" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+	</screen>
+	<screen name="vEditor" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="File Explorer">
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMySetupText" />
+		<widget name="filedata" position="680,165" size="1160,750" font="youvix-r;28" itemHeight="50" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1"/>
+	</screen>
+	<screen name="vInputBox" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="Input...">
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMySetupText" />
+		<widget name="input" position="680,165" size="1160,100" font="youvix-r;28" itemHeight="50" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1"/>
+		<widget name="text" position="680,300" size="1160,500" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="center" zPosition="2"/>
+	</screen>
+	<screen name="CPmaniger" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="Select Copy/Move location...">
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMySetupText" />
+		<panel name="MenuButtonRed" />
+		<eLabel text="MOVE" position="120,987" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1"/>
+		<panel name="MenuButtonYellow" />
+		<eLabel text="COPY" position="363,987" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="File" position="680,165" size="1160,200" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="center" zPosition="1"/>
+		<widget name="CPto" position="680,370" size="1160,500" font="youvix-r;28" itemHeight="50" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand"/>
+	</screen>
+	
+	<!-- ## Merlin ## -->
+	<screen name="iDreamMerlin" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMySetupText" />
+		<panel name="MenuInfoButton" />
+		<widget name="headertext" position="80,765" size="590,150" font="youvix-r;22" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="center" valign="center" zPosition="1"/>
+		<panel name="MenuListWidget" />
+		<panel name="MenuButtonRedSource" />
+		<panel name="MenuButtonGreenSource" />
+		<panel name="MenuButtonYellowSource" />
+		<panel name="MenuButtonBlueSource" />
+	</screen>
+	<screen name="iDreamAddToDatabase" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMySetupText" />
+		<widget name="output" position="680,165" size="1160,750" font="youvix-r;28" itemHeight="50" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1"/>
+		<panel name="MenuButtonRedSource" />
+		<panel name="MenuButtonGreenSource" />
+	</screen>
+	<screen name="MerlinMusicPlayerFileList" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMySetupText" />
+		<widget name="headertext" position="80,765" size="590,150" font="youvix-r;22" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="center" valign="center" zPosition="1"/>
+		<panel name="MenuListWidget" />
+	</screen>
+	<screen name="MerlinMusicPlayerScreen" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMyAudioText" />
+		<widget name="title" position="680,165" size="1160,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="center" valign="center"/>
+		<widget name="coverArt" position="1130,210" size="250,250" pixmap="no_coverArt.png" transparent="1" alphatest="blend"/>
+		<widget name="album" position="680,470" size="1160,38" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="center" valign="center"/>
+		<widget name="artist" position="680,510" size="1160,38" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="center" valign="center"/>
+		<widget name="genre" position="680,550" size="1160,38" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="center" valign="center"/>
+		<ePixmap position="960,630" size="600,10" pixmap="selectionbars/activitysliderbackground.png" alphatest="blend" zPosition="-1"/>
+		<widget source="session.CurrentService" render="Progress" position="960,630" size="600,10" pixmap="selectionbars/activityslider.png" transparent="1" zPosition="1">
+			<convert type="ServicePosition">Position</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Label" position="960,640" size="150,38" font="youvix-r;26" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="left" valign="center">
+			<convert type="ServicePosition">Position</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Label" position="1305,640" size="150,38" font="youvix-r;26" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="right" valign="center">
+			<convert type="ServicePosition">Remaining</convert>
+		</widget>
+		<eLabel text="/" font="youvix-r;26" position="1465,640" size="25,38" foregroundColor="lightcolour" backgroundColor="menubackground" halign="center" valign="center" transparent="1" zPosition="1"/>
+		<widget source="session.CurrentService" render="Label" position="1490,640" size="150,38" font="youvix-r;26" foregroundColor="lightcolour" backgroundColor="menubackground" transparent="1" halign="left" valign="center">
+			<convert type="ServicePosition">Length</convert>
+		</widget>
+		<eLabel text="Next" position="680,770" size="70,38" font="youvix-r;28" foregroundColor="lightcolour" backgroundColor="menubackground" halign="left" valign="top" transparent="1"/>
+		<widget name="nextTitle" position="760,770" size="980,76" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="top" transparent="1"/>
+		<!-- <ePixmap pixmap="/dvr/dvr.png" position="943,459" size="324,60" transparent="1" zPosition="1" alphatest="blend"/>
+		<widget name="dvrStatus" position="853,440" size="324,60" transparent="1" pixmaps="dvr/dvr_pl.png,dvr/dvr_pau.png" alphatest="blend"/>
+		<widget name="shuffle" position="630,120" size="50,25" pixmaps="dvr/placeholder1.png,dvr/shuffle.png" alphatest="blend"/>
+		<widget name="repeat" position="700,120" size="50,25" pixmaps="dvr/placeholder1.png,dvr/repeat.png" alphatest="blend"/> -->
+		<panel name="MenuMenuButton" />
+		<panel name="MenuInfoButton" />
+	</screen>
+	<screen name="MerlinMusicPlayerLyrics" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMyAudioText" />
+		<widget name="headertext" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="darkcolour" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<widget name="resulttext" position="680,165" size="1160,38" font="youvix-r;28" foregroundColor="lightcolour" backgroundColor="menubackground" halign="left" valign="center" zPosition="1" transparent="1"/>
+		<widget name="lyric_text" position="680,210" size="1160,715" font="youvix-r;28" itemHeight="50" foregroundColor="white" backgroundColor="menubackground" transparent="1" zPosition="1"/>
+	</screen>
+	<screen name="MerlinMusicPlayerSongList" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMyAudioText" />
+		<widget name="headertext" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="darkcolour" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<panel name="MenuListWidget" />
+	</screen>
+	<screen name="MerlinMusicPlayerScreenSaver" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+		<widget name="coverArt" position="1130,210" size="250,250" pixmap="no_coverArt.png" transparent="1" alphatest="blend"/>
+		<widget name="display" position="100,315" size="1100,120" font="youvix-r;55" foregroundColor="white" backgroundColor="menubackground" zPosition="1" transparent="1"/>
+	</screen>
+	
+	<!-- ## Quickbutton ## -->
+	<screen name="QuickbuttonSetup" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="Quickbutton Setup">
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMySetupText" />
+		<panel name="MenuConfigWidget" />
+		<panel name="MenuButtonRed" />
+		<panel name="MenuButtonGreen" />
+	</screen>
+	
+	<!-- ## Weather Plugin ## -->
+	<screen name="MSNWeatherPlugin" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="Weather Plugin">
+	    <panel name="BigMenuPanel" />
+		<panel name="MenuMyWeatherText" />
+		<widget render="Label" source="caption" position="80,165" size="590,28" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="right" valign="center" zPosition="1"/>
+		<widget render="Label" source="observationtime" position="80,200" size="590,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="right" valign="center" zPosition="1" />
+		<widget render="Label" source="observationpoint" position="80,235" size="590,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="right" valign="center" zPosition="1" />
+		<widget name="currenticon" position="160,295" size="220,190" alphatest="blend" zPosition="1"/>
+		<widget render="Label" source="currentTemp" position="420,350" size="200,35" font="youvix-r;26" foregroundColor="white" backgroundColor="menubackground2" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<widget render="Label" source="feelsliketemp" position="420,385" size="200,35" font="youvix-r;26" foregroundColor="white" backgroundColor="menubackground2" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<widget render="Label" source="condition" position="80,510" size="590,35" font="youvix-r;26" foregroundColor="white" backgroundColor="menubackground2" halign="center" valign="center" transparent="1" zPosition="1"/>
+		<widget render="Label" source="wind_condition" position="80,545" size="590,35" font="youvix-r;26" foregroundColor="white" backgroundColor="menubackground2" halign="center" valign="center" transparent="1" zPosition="1"/>
+		<widget render="Label" source="humidity" position="80,580" size="590,35" font="youvix-r;26" foregroundColor="white" backgroundColor="menubackground2" halign="center" valign="center" transparent="1" zPosition="1"/>
+		<widget render="Label" source="statustext" position="680,165" size="1160,750" font="youvix-r;28" itemHeight="50" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="center" transparent="1" zPosition="1"/>	
+		<widget render="Label" source="weekday1" position="780,210" size="220,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="center" transparent="1" zPosition="1"/>
+		<widget name="weekday1_icon" position="780,255" size="220,190" alphatest="blend" zPosition="1"/>
+		<widget render="Label" source="weekday1_temp" position="780,455" size="220,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="bottom" transparent="1" zPosition="1"/>
+		<widget render="Label" source="weekday2" position="1140,210" size="220,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="center" transparent="1" zPosition="1"/>
+		<widget name="weekday2_icon" position="1140,255" size="220,190" alphatest="blend" zPosition="1"/>
+		<widget render="Label" source="weekday2_temp" position="1140,455" size="220,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="bottom" transparent="1" zPosition="1"/>
+		<widget render="Label" source="weekday3" position="1510,210" size="220,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="center" transparent="1" zPosition="1"/>
+		<widget name="weekday3_icon" position="1510,255" size="220,190" alphatest="blend" zPosition="1"/>
+		<widget render="Label" source="weekday3_temp" position="1510,455" size="220,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="bottom" transparent="1" zPosition="1"/>
+		<widget render="Label" source="weekday4" position="970,570" size="220,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="center" transparent="1" zPosition="1"/>
+		<widget name="weekday4_icon" position="970,615" size="220,190" alphatest="blend" zPosition="1"/>
+		<widget render="Label" source="weekday4_temp" position="970,815" size="220,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="bottom" transparent="1" zPosition="1"/>
+		<widget render="Label" source="weekday5" position="1330,570" size="220,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="center" transparent="1" zPosition="1"/>
+		<widget name="weekday5_icon" position="1330,615" size="220,190" alphatest="blend" zPosition="1"/>
+		<widget render="Label" source="weekday5_temp" position="1330,815" size="220,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="bottom" transparent="1" zPosition="1"/>	
+	</screen>
+	<screen name="MSNWeatherPluginEntriesListConfigScreen" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+	    <panel name="BigMenuPanel" />
+		<panel name="MenuMyWeatherText" />
+	    <widget render="Label" source="city" position="685,157" size="500,50" font="youvix-r;28" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<widget render="Label" source="degreetype" position="900,157" size="500,50" font="youvix-r;28" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<widget name="entrylist" position="680,165" size="1160,750" font="youvix-r;28" itemHeight="50" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1"/>
+		<panel name="MenuButtonRedSource" />
+		<panel name="MenuButtonGreenSource" />
+        <panel name="MenuButtonYellowSource" />
+		<panel name="MenuButtonBlueSource" />
+	</screen>
+	<screen name="MSNWeatherPluginEntryConfigScreen" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+	    <panel name="BigMenuPanel" />
+		<panel name="MenuMyWeatherText" />
+		<panel name="MenuConfigWidget" />
+		<panel name="MenuButtonRedSource" />
+		<panel name="MenuButtonGreenSource" />
+        <panel name="MenuButtonYellowSource" />
+		<panel name="MenuButtonBlueSource" />
+	</screen>
+	<screen name="MSNWeatherPluginSearch" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+	    <panel name="BigMenuPanel" />
+		<panel name="MenuMyWeatherText" />
+		<widget name="entrylist" position="680,165" size="1160,750" font="youvix-r;28" itemHeight="70" selectionPixmap="selectionbars/SelectionBar_H70x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1"/>
+		<panel name="MenuButtonRedSource" />
+		<panel name="MenuButtonGreenSource" />
+	</screen>
+
+</skin>
