@@ -1105,11 +1105,11 @@
 		</widget>
 		<widget name="statusicon" position="276,1019" size="25,25" pixmaps="pvr/play.png,pvr/pause.png,pvr/stop.png,pvr/forward.png,pvr/backward.png,pvr/slow.png,pvr/blank.png" zPosition="1" alphatest="blend" />
 		<widget name="speed" position="310,1019" size="100,38" font="youvix-r;22" foregroundColor="white" backgroundColor="background2" transparent="1" halign="left" zPosition="4" />
-		<widget source="session.CurrentService" render="Label" position="1422,1010" size="100,38" font="youvix-r;26" foregroundColor="white" backgroundColor="background2" transparent="1" halign="right" valign="center">
+		<widget source="session.CurrentService" render="Label" position="1362,1010" size="130,38" font="youvix-r;26" foregroundColor="white" backgroundColor="background2" transparent="1" halign="right" valign="center">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
-		<eLabel text="/" font="youvix-r;26" position="1532,1014" size="25,38" foregroundColor="lightcolour" backgroundColor="background2" halign="left" transparent="1" zPosition="1"/>
-		<widget source="session.CurrentService" render="Label" position="1550,1010" size="100,38" font="youvix-r;26" foregroundColor="lightcolour" backgroundColor="background2" transparent="1" halign="left" valign="center">
+		<eLabel text="/" font="youvix-r;26" position="1502,1014" size="25,38" foregroundColor="lightcolour" backgroundColor="background2" halign="left" transparent="1" zPosition="1"/>
+		<widget source="session.CurrentService" render="Label" position="1520,1010" size="130,38" font="youvix-r;26" foregroundColor="lightcolour" backgroundColor="background2" transparent="1" halign="left" valign="center">
 			<convert type="ServicePosition">Length</convert>
 		</widget>
 	</screen>
