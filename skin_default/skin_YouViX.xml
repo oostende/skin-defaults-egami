@@ -2238,7 +2238,7 @@
 	<!-- ## Volume # -->
 	<screen name="Volume" position="center,20" size="480,102" title="Volume" flags="wfNoBorder" backgroundColor="transparent" zPosition="10">
 		<ePixmap pixmap="screens/volume_background.png" position="0,0" size="480,102" alphatest="on" />
-		<widget name="Volume" pixmap="screens/volume_up.png" position="97,42" size="293,20" alphatest="blend" transparent="1" zPosition="1" />
+		<widget name="Volume" pixmap="screens/volume_up.png" position="100,42" size="293,20" alphatest="blend" transparent="1" zPosition="1" />
 		<widget render="VolumeText" source="global.CurrentTime" font="youvix-r;24" position="410,37" size="45,25" foregroundColor="white" backgroundColor="background2" halign="center" valign="center" transparent="1" zPosition="101" />
 	</screen>
 	
