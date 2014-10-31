@@ -173,7 +173,7 @@
 	</screen>
 	
 	<!-- ## LCD4Linux ## -->
-	<screen name="LCDdisplayMenu" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="LCD4linux - Config" >
+	<!-- <screen name="LCDdisplayMenu" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="LCD4linux - Config" >
 		<panel name="BigMenuPanel" />
 		<panel name="MenuMySetupText" />
         <panel name="MenuMenuWidget" />
@@ -185,7 +185,7 @@
 		<widget name="LCDfile" position="5,100" size="610,312" scrollbarMode="showOnDemand" zPosition="4"/>
 		<ePixmap pixmap="buttons/green.png" position="80,1031" size="35,35" alphatest="blend" transparent="1" />
 		<eLabel text="Select" position="120,1033" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1"/>
-	</screen>
+	</screen> -->
 	
 	<!-- ## OnDemand ## -->
 	<screen name="OnDemand_Screen" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
