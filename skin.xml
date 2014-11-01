@@ -1,23 +1,25 @@
 <skin>
-	<!--	Skin: Default-OE-A skinViX 1080p addition Vs 0.00	-->
-	<!--	This skin is part of the default OE-A-skin; the same license applies.	-->
+	<!--	Skin: Default 1080 OE-A Skin by rossi2000	-->
+	<!--	This skin is part of the default 1080 OE-A skin; the same license applies.	-->
+	
 	<output id="0">
-		<resolution bpp="32" xres="1280" yres="720" />
+		<resolution xres="1920" yres="1080" bpp="32" />
 	</output>
+	
 	<windowstyle type="skinned" id="0">
-		<title offset="25,15" font="Italic;24" />
-		<color name="Background" color="window-bg" />
-		<color name="LabelForeground" color="window-fg" />
-		<color name="ListboxBackground" color="window-bg" />
-		<color name="ListboxForeground" color="window-fg" />
-		<color name="ListboxSelectedBackground" color="window-sel-bg" />
-		<color name="ListboxSelectedForeground" color="window-sel-fg" />
+		<title offset="60,10" font="youvix-r;28" />
+		<color name="Background" color="menubackground" />
+		<color name="LabelForeground" color="white" />
+		<color name="ListboxBackground" color="menubackground" />
+		<color name="ListboxForeground" color="white" />
+		<color name="ListboxSelectedBackground" color="lightcolour" />
+		<color name="ListboxSelectedForeground" color="white" />
 		<color name="ListboxMarkedBackground" color="window-sel-bg" />
-		<color name="ListboxMarkedForeground" color="#00a08500" />
+		<color name="ListboxMarkedForeground" color="white" />
 		<color name="ListboxMarkedAndSelectedBackground" color="window-sel-bg" />
-		<color name="ListboxMarkedAndSelectedForeground" color="#00800000" />
-		<color name="WindowTitleForeground" color="window-frgrnd" />
-		<color name="WindowTitleBackground" color="#00000000" />
+		<color name="ListboxMarkedAndSelectedForeground" color="white" />
+		<color name="WindowTitleForeground" color="white" />
+		<color name="WindowTitleBackground" color="menubackground" />
 		<borderset name="bsWindow">
 			<pixmap pos="bpTopLeft" filename="screens/b_tl.png" />
 			<pixmap pos="bpTop" filename="screens/b_t.png" />
