@@ -33,6 +33,7 @@
 		<color name="white" value="#00ffffff" />
 		<color name="black" value="#00000000" />
 		<color name="grey" value="#00b3b3b3" />
+		<color name="darkgrey" value="#00676565" />
 		<color name="lightcolour" value="#003499cc" />
 		<color name="darkcolour" value="#001176ad" />
 		<color name="window-sel-bg" value="#00acacac" />
