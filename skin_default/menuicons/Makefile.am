@@ -5,6 +5,7 @@ dist_install_DATA = audio.png \
     console.png \
     imdb.png \
     info.png \
+	fritz.png \
     languages.png \
     network.png \
     plugins.png \
