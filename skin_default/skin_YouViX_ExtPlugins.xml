@@ -417,6 +417,32 @@
 		<panel name="MenuMenuWidget" />
 	</screen>
 	
+	<!-- ## Sundtek Control Center ## -->
+	<screen  name="SundtekControlCenter" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMySundtekText" />
+        <widget name="tunerone" position="250,210" size="256,256" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="center" alphatest="blend" transparent="1" zPosition="1" />
+		<!-- <widget name="ok" position="25,430" size="630,40" font="Regular;16" halign="left" valign="center" transparent="1" zPosition="1" />
+        <widget name="menu" position="25,450" size="630,40" font="Regular;16" halign="left" valign="center" transparent="1" zPosition="1" />
+        <widget name="infos" position="25,470" size="630,40" font="Regular;16" halign="left" valign="center" transparent="1" zPosition="1" /> -->
+        <widget name="driverupdateavail" position="80,765" size="590,150" font="youvix-r;22" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="center" valign="top" zPosition="1" />
+        <widget name="updateavail" position="80,765" size="590,150" font="youvix-r;22" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="center" valign="center" zPosition="1" />
+        <widget name="version" position="80,765" size="590,150" font="youvix-r;22" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="center" valign="bottom" zPosition="1" />
+		<widget name="config" position="680,165" size="1160,600" font="youvix-r;28" itemHeight="50" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1" />
+		<widget name="bouquets" position="680,800" size="1160,35" font="youvix-r;26" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="center" transparent="1" zPosition="1" />
+        <widget name="netservers" position="680,835" size="1160,35" font="youvix-r;26" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="center" transparent="1" zPosition="1" />
+		<panel name="MenuMenuButton" />
+		<panel name="MenuInfoButton" />
+		<ePixmap pixmap="buttons/red.png" position="80,986" size="35,35" alphatest="blend" transparent="1" />
+		<widget name="btt_red" position="120,987" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1" />
+        <ePixmap pixmap="buttons/green.png" position="80,1031" size="35,35" alphatest="blend" transparent="1" />
+		<widget name="btt_green" position="120,1033" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1" />
+        <ePixmap pixmap="buttons/yellow.png" position="635,986" size="35,35" alphatest="blend" transparent="1" />
+		<widget name="btt_yellow" position="363,987" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1" />
+        <ePixmap pixmap="buttons/blue.png" position="635,1031" size="35,35" alphatest="blend" transparent="1" />
+        <widget name="btt_blue" position="363,1031" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1" /> 
+	</screen>
+	
 	<!-- ## WebRadioFS ## -->
 	<screen name="WebradioFSScreen_12" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="white" title="webradioFS" zPosition="-1" >
         <panel name="BigMenuPanel" />
