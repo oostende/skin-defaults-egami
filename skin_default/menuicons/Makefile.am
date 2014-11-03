@@ -5,14 +5,14 @@ dist_install_DATA = audio.png \
     console.png \
     imdb.png \
     info.png \
-	fritz.png \
+    fritz.png \
     languages.png \
     network.png \
     plugins.png \
     ruya.png \
     setup.png \
-	skins.png \
-	softcam.png \
-	timers.png \
-	tuners.png \
-	updates.png
+    skins.png \
+    softcam.png \
+    timers.png \
+    tuners.png \
+    updates.png
