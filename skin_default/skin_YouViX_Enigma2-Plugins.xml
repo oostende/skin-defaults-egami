@@ -64,6 +64,99 @@
 		<panel name="MenuButtonYellow" />
 		<panel name="MenuButtonBlue" />
 	</screen>
+	<screen name="FritzDisplayPhonebook" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="Phonebook" >
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMyFritzText" />
+		<widget source="entries" render="Listbox" position="680,165" size="1160,750" font="youvix-r;28" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1">
+			<convert type="TemplatedMultiContent">
+				{"template": [
+						MultiContentEntryText(pos = (10,0), size = (750,50), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1), # index 0 is the name, index 1 is shortname
+						MultiContentEntryText(pos = (760,0), size = (390,50), font=0, flags = RT_HALIGN_RIGHT|RT_VALIGN_CENTER, text = 2), # index 2 is number
+					],
+				"fonts": [gFont("youvix-r", 28)],
+				"itemHeight": 50
+				}
+			</convert>
+		</widget>
+		<panel name="MenuButtonRed" />
+		<panel name="MenuButtonGreen" />
+		<panel name="MenuButtonYellow" />
+		<panel name="MenuButtonBlue" />
+	</screen>
+	<screen name="FritzDisplayCalls" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="Phone calls" >
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMyFritzText" />
+		<widget name="statusbar" position="80,765" size="590,150" font="youvix-r;22" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="center" valign="center" zPosition="1" />
+		<widget source="entries" render="Listbox" position="680,165" size="1160,750" font="youvix-r;28" selectionPixmap="selectionbars/SelectionBar_H75x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1">
+			<convert type="TemplatedMultiContent">
+				{"template": [
+						MultiContentEntryText(pos = (50,0), size = (1100,40), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1), # index 0 is the number, index 1 is date
+						MultiContentEntryPixmapAlphaTest(pos = (10,5), size = (30,30), png = 2), # index 1 i direction pixmap
+						MultiContentEntryText(pos = (10,40), size = (400,35), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 3), # index 2 is remote name/number
+						MultiContentEntryText(pos = (450,40), size = (100,35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 4), # index 3 is length of call
+						MultiContentEntryText(pos = (10,40), size = (1150,35), font=0, flags = RT_HALIGN_RIGHT|RT_VALIGN_CENTER, text = 5), # index 4 is my number/name for number
+					],
+				"fonts": [gFont("youvix-r", 28), gFont("youvix-r", 24)],
+				"itemHeight": 75
+				}
+			</convert>
+		</widget>
+		<panel name="MenuButtonRed" />
+		<panel name="MenuButtonGreen" />
+		<panel name="MenuButtonYellow" />
+		<panel name="MenuButtonBlue" />
+	</screen>
+	<screen name="AddScreen" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="Add entry to phonebook" >
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMyFritzText" />
+		<panel name="MenuConfigWidget" />
+		<panel name="MenuButtonRed" />
+		<panel name="MenuButtonGreen" />
+	</screen>
+	<screen name="MessageBoxPixmap" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="New Call">
+		<panel name="BigMenuPanel" />
+		<eLabel text="MyFritz" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<widget name="text" position="680,165" size="1160,530" font="youvix-r;30" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="center" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />
+		<widget name="InfoPixmap" pixmap="icons/input_info.png" position="250,210" size="256,256" alphatest="blend" zPosition="1" />
+	</screen>
+	<screen name="FritzOfferAction" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="Do what?" >
+		<widget name="text" position="680,165" size="1160,530" font="youvix-r;30" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="center" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />
+		<widget name="FacePixmap" pixmap="icons/input_info.png" position="250,210" size="256,256" alphatest="blend" zPosition="1" />
+		<widget name="key_red_p" zPosition="4" size="140,40" pixmap="%s" transparent="1" alphatest="on" />
+		<widget name="key_green_p" zPosition="4" size="140,40" pixmap="%s" transparent="1" alphatest="on" />
+		<widget name="key_yellow_p" zPosition="4" size="140,40" pixmap="%s" transparent="1" alphatest="on" />
+		<widget name="key_red" zPosition="5" size="140,40" valign="center" halign="center" font="Regular;21" transparent="1" foregroundColor="white" shadowColor="black" shadowOffset="-1,-1" />
+		<widget name="key_green" zPosition="5" size="140,40" valign="center" halign="center" font="Regular;21" transparent="1" foregroundColor="white" shadowColor="black" shadowOffset="-1,-1" />
+		<widget name="key_yellow" zPosition="5" size="140,40" valign="center" halign="center" font="Regular;21" transparent="1" foregroundColor="white" shadowColor="black" shadowOffset="-1,-1" />
+	</screen>
+	<screen name="FritzMenuNew" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="FRITZ!Box Fon Status" >
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMyFritzText" />
+		<widget name="FBFInfo" position="680,165" size="1160,70" font="youvix-r;30" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1" />
+		<widget name="internet_inactive" pixmap="buttons/red.png" position="680,240" size="35,35" transparent="1" alphatest="blend" zPosition="1"/>
+		<widget name="internet_active" pixmap="buttons/green.png" position="680,240" size="35,35" transparent="1" alphatest="blend" zPosition="2"/>
+		<widget name="FBFInternet" position="730,240" size="500,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1" />
+		<widget name="dsl_inactive" pixmap="buttons/red.png" position="680,285" size="35,35" transparent="1" alphatest="blend" zPosition="1"/>
+		<widget name="dsl_active" pixmap="buttons/green.png" position="680,285" size="35,35" transparent="1" alphatest="blend" zPosition="2"/>
+		<widget name="FBFDsl" position="730,285" size="500,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1" />
+		<widget name="wlan_inactive" pixmap="buttons/red.png" position="680,330" size="35,35" transparent="1" alphatest="blend" zPosition="1"/>
+		<widget name="wlan_active" pixmap="buttons/green.png" position="680,330" size="35,35" transparent="1" alphatest="blend" zPosition="2"/>
+		<widget name="FBFWlan" position="730,330" size="500,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1" />
+		<widget name="dect_inactive" pixmap="buttons/red.png" position="680,375" size="35,35" transparent="1" alphatest="blend" zPosition="1"/>
+		<widget name="dect_active" pixmap="buttons/green.png" position="680,375" size="35,35" transparent="1" alphatest="blend" zPosition="2"/>
+		<widget name="FBFDect" position="730,375" size="500,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1" />
+		<widget name="fax_inactive" pixmap="buttons/red.png" position="680,420" size="35,35" transparent="1" alphatest="blend" zPosition="1"/>
+		<widget name="fax_active" pixmap="buttons/green.png" position="680,420" size="35,35" transparent="1" alphatest="blend" zPosition="2"/>
+		<widget name="FBFFax" position="730,420" size="500,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1" />
+		<widget name="rufuml_inactive" pixmap="buttons/red.png" position="680,465" size="35,35" transparent="1" alphatest="blend" zPosition="1"/>
+		<widget name="rufuml_active" pixmap="buttons/green.png" position="680,465" size="35,35" transparent="1" alphatest="blend" zPosition="2"/>
+		<widget name="FBFRufuml" position="730,465" size="500,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1" />
+		<widget name="gast_inactive" pixmap="buttons/red.png" position="680,510" size="35,35" transparent="1" alphatest="blend" zPosition="1"/>
+		<widget name="gast_active" pixmap="buttons/green.png" position="680,510" size="35,35" transparent="1" alphatest="blend" zPosition="2"/>
+		<widget name="FBFGast" position="730,510" size="500,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1" />
+		<panel name="MenuButtonGreen" />
+		<panel name="MenuButtonYellow" />
+	</screen>
 	
 	<!-- ## Merlin ## -->
 	<screen name="iDreamMerlin" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
