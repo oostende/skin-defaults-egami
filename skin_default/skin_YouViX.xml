@@ -480,6 +480,9 @@
 		<panel name="MenuButtonGreenSource" />
 		<panel name="MenuButtonYellowSource" />
 	</screen>
+	<screen name="XtraPluginsSelection" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="BackupSelection" />
+	</screen>
 	
 	<!-- ## Button Setup ## -->
 	<screen name="ButtonSetup" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
