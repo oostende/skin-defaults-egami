@@ -1757,7 +1757,6 @@
 		<eLabel text="PiP-Zap" position="0,0" size="180,45" backgroundColor="transparent" font="youvix-r;22" borderColor="black" transparent="1" valign="center" halign="center"/>
 	</screen>
 	
-	
 	<!-- ## Position Setup ## -->
 	<screen name="UserInterfacePositioner" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" >
 		<panel name="BigMenuPanel" />
