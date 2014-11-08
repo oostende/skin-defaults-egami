@@ -94,34 +94,6 @@
 		<panel name="MenuListLogWidget" />
 	</screen>
 	
-	<!-- ## AutoPiconMaker ## -->
-	<screen name="AutoPiconManager_About" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
-		<panel name="AutoBouquetsMaker_About" />
-	</screen>
-	<screen name="AutoPiconManager_Log" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
-		<panel name="AutoBouquetsMaker_Log" />
-	</screen>
-	<screen name="AutoPiconManager_Setup" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
-		<panel name="AutoBouquetsMaker_ProvidersSetup" />
-	</screen>
-	<screen name="AutoPiconManager_Menu" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
-		<panel name="BigMenuPanel" />
-		<panel name="MenuMySetupText" />
-		<widget source="list" render="Listbox" position="680,165" size="1160,750" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" scrollbarMode="showOnDemand" enableWrapAround="1" >
-			<convert type="TemplatedMultiContent">
-				{"template": [
-					MultiContentEntryText(pos = (10, 5), size = (800, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
-					],
-					"fonts": [gFont("youvix-r", 28)],
-					"itemHeight": 50
-				}
-			</convert>
-		</widget>
-	</screen>
-	<screen name="AutoPiconManager" position="0,0" size="1920,1080" title="CrossEPG" flags="wfNoBorder" backgroundColor="transparent" >
-	    <panel name="CrossEPGDownloadBar" />
-	</screen>
-	
 	<!-- ## Bluetooth Devices Manager ## -->
 	<screen name="BluetoothDevicesManager" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="Bluetooth Devices Manager">
 		<panel name="BigMenuPanel" />
@@ -173,7 +145,7 @@
 	</screen>
 	
 	<!-- ## LCD4Linux ## -->
-	<!-- <screen name="LCDdisplayMenu" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="LCD4linux - Config" >
+	<screen name="LCDdisplayMenu" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="LCD4linux - Config" >
 		<panel name="BigMenuPanel" />
 		<panel name="MenuMySetupText" />
         <panel name="MenuMenuWidget" />
@@ -185,7 +157,7 @@
 		<widget name="LCDfile" position="5,100" size="610,312" scrollbarMode="showOnDemand" zPosition="4"/>
 		<ePixmap pixmap="buttons/green.png" position="80,1031" size="35,35" alphatest="blend" transparent="1" />
 		<eLabel text="Select" position="120,1033" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1"/>
-	</screen> -->
+	</screen>
 	
 	<!-- ## OnDemand ## -->
 	<screen name="OnDemand_Screen" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
