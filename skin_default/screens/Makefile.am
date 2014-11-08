@@ -9,15 +9,6 @@ dist_install_DATA = b_b.png \
     b_tl.png \
     b_tr.png \
 	backdrop.png \
-    fs-bg-bot-wizzard.png \
-    fs-bg-bot.png \
-    fs-bg-top-small.png \
-    fs-bg-top-wizzard.png \
-    fs-bg-top.png \
-    progress_medium.png \
-    pts-bg.png \
-    pvr-bg.png \
-    servicescan_progress_big.png \
 	volume_background.png \
 	volume_up.png \
 	zapbox.png
