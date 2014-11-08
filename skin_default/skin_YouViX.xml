@@ -663,7 +663,7 @@
 		<panel name="EPGSelectionPicon" />
 		<panel name="ChannelSelectionBouquetName" />
 		<panel name="ChannelSelectionOrbitalPosition" />
-		<widget name="list" position="680,210" size="1160,715" selectionPixmap="selectionbars/SelectionBar_H80x1160.png" backgroundColor="menubackground" foregroundColorEvent="lightcolour" foregroundColorEventSelected="white" foregroundColorServiceNotAvail="darkgrey" foregroundColorMarked="white" foregroundColorMarkedSelected="red" backgroundColorMarked="lightcolour" backgroundColorMarkedSelected="lightcolour" serviceItemHeight="36" serviceNumberFont="youvix-r;26" serviceNameFont="youvix-r;26" serviceInfoFont="youvix-r;24" transparent="1" zPosition="1" scrollbarMode="showOnDemand" />
+		<widget name="list" position="680,210" size="1160,715" selectionPixmap="selectionbars/SelectionBar_H80x1160.png" backgroundColor="menubackground" foregroundColorEvent="lightcolour" foregroundColorEventSelected="white" backgroundColorEventSelected="lightcolour" foregroundColorServiceNotAvail="darkgrey" foregroundColorMarked="white" foregroundColorMarkedSelected="red" backgroundColorMarked="lightcolour" backgroundColorMarkedSelected="lightcolour" serviceItemHeight="36" serviceNumberFont="youvix-r;26" serviceNameFont="youvix-r;26" serviceInfoFont="youvix-r;24" transparent="1" zPosition="1" scrollbarMode="showOnDemand" />
 		<panel name="MenuMenuButton" />
 		<panel name="MenuInfoButton" />
 		<panel name="MenuButtonRedSource" />
