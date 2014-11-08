@@ -1746,6 +1746,18 @@
 		<widget name="list" position="680,165" size="1160,750" font="youvix-r;32" itemHeight="75" selectionPixmap="selectionbars/SelectionBar_H75x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" scrollbarMode="showOnDemand" zPosition="2" enableWrapAround="1" />
 	</screen>
 	
+	<!-- ## PiP ## -->
+	<screen name="PiPSetup" position="center,center" size="1200,300" flags="wfNoBorder" backgroundColor="transparent" zPosition="2">
+		<widget name="text" position="0,0" size="1200,300" foregroundColor="white" backgroundColor="transparent" font="youvix-r;28" borderColor="black" transparent="1" halign="center" valign="center"/>
+	</screen>
+	<screen name="PictureInPicture" position="600,90" zPosition="-1" size="360,288" flags="wfNoBorder">
+		<widget name="video" position="0,0" size="360,288" backgroundColor="transparent" />
+	</screen>
+	<screen name="PictureInPictureZapping" position="870,90" size="180,45" flags="wfNoBorder" backgroundColor="transparent" zPosition="2">
+		<eLabel text="PiP-Zap" position="0,0" size="180,45" backgroundColor="transparent" font="youvix-r;22" borderColor="black" transparent="1" valign="center" halign="center"/>
+	</screen>
+	
+	
 	<!-- ## Position Setup ## -->
 	<screen name="UserInterfacePositioner" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" >
 		<panel name="BigMenuPanel" />
