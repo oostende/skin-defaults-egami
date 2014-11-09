@@ -2166,6 +2166,14 @@
 		<widget name="UnhandledKeyPixmap" position="0,0" size="147,132" pixmap="icons/unhandled-key.png" alphatest="blend" />
 	</screen>
 	
+	<!-- ## Virtual Keyboard ## -->
+	<screen name="VirtualKeyBoard" position="center,center" size="840,500" zPosition="99">
+		<ePixmap pixmap="vkey_text.png" position="9,35" zPosition="-4" size="813,78" alphatest="blend" />
+		<widget name="header" position="10,10" size="750,20" font="youvix-r;20" foregroundColor="white" backgroundColor="menubackground" transparent="1" noWrap="1" />
+		<widget name="text" position="10,20" size="810,68" font="youvix-r;46" foregroundColor="white" backgroundColor="menubackground" transparent="1" noWrap="1" halign="right" />
+		<widget name="list" position="10,100" size="810,470" foregroundColor="white" backgroundColor="menubackground" transparent="0" selectionDisabled="1" />
+	</screen>
+	
 	<!-- ## ViX Menu ## -->
 	<screen name="VIXMenu" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="BigMenuPanel" />
