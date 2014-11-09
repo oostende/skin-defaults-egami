@@ -922,6 +922,14 @@
         <panel name="MenuButtonBlue" />		
 	</screen>
 	
+	<!-- ## Input Box ## -->
+	<screen name="InputBox" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMySetupText" />
+		<widget name="text" position="680,165" size="1160,530" font="youvix-r;30" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="center" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />
+		<widget name="input" position="680,715" size="1160,35" font="youvix-r;28" />
+	</screen>
+	
 	<!-- ## Input Devices ## -->
 	<screen name="InputDeviceSelection" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="BigMenuPanel" />
