@@ -2118,9 +2118,9 @@
 		<panel name="MenuMyTimersText" />
 		<widget name="timerlist" position="680,165" size="1160,750" font="youvix-r;28" itemHeight="75" selectionPixmap="selectionbars/SelectionBar_H75x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1" />
 	</screen>
-	<screen name="RecordTimerQuestion" position="center,center" size="240,70" flags="wfNoBorder" zPosition="5" >
+	<screen name="RecordTimerQuestion" position="center,center" size="395,120" flags="wfNoBorder" backgroundColor="black" zPosition="5" >
 		<widget name="text" position="0,0" size="0,0" font="youvix-r;22" foregroundColor="white" backgroundColor="menubackground" transparent="1" zPosition="1" />
-		<widget name="list" position="10,10" size="220,100" font="youvix-r;28" itemHeight="50" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" zPosition="1" />
+		<widget name="list" position="10,10" size="395,120" font="youvix-r;28" itemHeight="50" selectionPixmap="selectionbars/SelectionBar_H50x545.png" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
 	</screen>
 	
 	<!-- ## Tuner Config ## -->
