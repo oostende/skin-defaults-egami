@@ -14,6 +14,9 @@ install_DATA = BorderBottom.png \
 	epgclock_prepost.png \
 	epgclock_zap.png \
 	epgclock_zaprec.png \
+	epgclock_selpost.png \
+	epgclock_selpre.png \
+	epgclock_selprepost.png \
     information.png \
     now_next_more_on.png \
     now_next_more.png \
