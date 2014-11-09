@@ -1091,6 +1091,12 @@
 	<screen name="MessageBoxSimple" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="MessageBox" />
 	</screen>
+	<screen name="SystemMessage" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" >
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMyMessagesText" />
+		<ePixmap pixmap="icons/input_error.png" position="250,210" size="256,256" alphatest="blend" zPosition="1" />
+		<widget source="text" render="Label" position="680,165" size="1160,530" font="youvix-r;30" foregroundColor="white" backgroundColor="menubackground" halign="center" valign="center" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />	
+	</screen>
 	
 	<!-- ## Movie Bar ## -->
 	<screen name="MoviePlayer" flags="wfNoBorder" position="0,0" size="1920,1080" title="InfoBar" backgroundColor="transparent">
