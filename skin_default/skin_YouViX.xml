@@ -1352,7 +1352,7 @@
 		<panel name="MenuMyNetworkText" />
 		<panel name="MenuConfigWidget" />
 		<panel name="MenuIntroductionWidget" />
-		<panel name="MenuTextButton" />
+		<panel name="MenuTextButtonVkey" />
 		<panel name="MenuHelpwindowWidget" />
 		<panel name="MenuButtonRedSource" />
 		<panel name="MenuButtonGreenSource" />
@@ -1545,18 +1545,7 @@
 	<screen name="NetworkTelnet" position="0,0" size="1920,1080" flags="wfNoBorder" title="" backgroundColor="transparent">
 		<panel name="NetworkFtp" />
 	</screen>
-	<!-- ## Network - Tuner Server ## -->
-	<screen name="TunerServer" position="0,0" size="1920,1080" flags="wfNoBorder" title="" backgroundColor="transparent">
-		<panel name="BigMenuPanel" />
-		<panel name="MenuMyNetworkText" />
-		<widget name="lab1" position="80,765" size="590,150" font="youvix-r;22" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="center" valign="center" zPosition="1" />
-		<widget name="lab2" position="1040,260" size="200,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" valign="center" transparent="1" zPosition="1" />
-		<widget name="labstop" position="1280,260" size="200,35" font="youvix-r;28" backgroundColor="red" valign="center" halign="center" zPosition="1" />
-		<widget name="labrun" position="1280,260" size="200,35" font="youvix-r;28" backgroundColor="green" valign="center" halign="center" zPosition="1" />
-		<panel name="MenuButtonRedSource" />
-		<panel name="MenuButtonGreenSource" />
-		<panel name="MenuButtonYellowSource" />
-	</screen>
+	
 	<!-- ## Network - uShare ## -->
 	<screen name="NetworkuShare" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="BigMenuPanel" />
@@ -2190,6 +2179,17 @@
 	<!-- ## Unhandled Key ## -->
 	<screen name="UnhandledKey" position="1770,50" size="147,132" flags="wfNoBorder" zPosition="100" backgroundColor="transparent">
 		<widget name="UnhandledKeyPixmap" position="0,0" size="147,132" pixmap="icons/unhandled-key.png" alphatest="blend" />
+	</screen>
+		
+	<!-- ## User Dialog ## -->
+	<screen name="UserDialog" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="">
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMyNetworkText" />
+		<panel name="MenuConfigWidget" />
+		<panel name="MenuIntroductionWidget" />
+		<panel name="MenuTextButtonVkey" />
+		<panel name="MenuHelpwindowWidget" />
+		<panel name="MenuButtonRedSource" />
 	</screen>
 	
 	<!-- ## Virtual Keyboard ## -->
