@@ -826,7 +826,7 @@
 	<!-- ## HDMI-CEC Setup ## -->
 	<screen name="HdmiCECSetupScreen" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="BigMenuPanel" />
-		<panel name="MenuMySetupText" />
+		<panel name="MenuMyHDMIText" />
 		<panel name="MenuConfigWidget" />
 		<widget source="current_address" render="Label" position="80,805" size="590,30" font="youvix-r;22" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="center" valign="center" zPosition="1" />
 		<widget source="fixed_address" render="Label" position="80,835" size="590,30" font="youvix-r;22" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="center" valign="center" zPosition="1" />
@@ -1814,14 +1814,14 @@
 	<!-- ## Remote Control Code ## -->
 	<screen name="RemoteControlCode" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="BigMenuPanel" />
-		<panel name="MenuMySetupText" />
+		<panel name="MenuMyRemotesText" />
 		<panel name="MenuConfigWidget" />
 		<panel name="MenuButtonRedSource" />
 		<panel name="MenuButtonGreenSource" />
 	</screen>
 	<screen name="RCSetupScreen" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="BigMenuPanel" />
-		<panel name="MenuMySetupText" />
+		<panel name="MenuMyRemotesText" />
 		<panel name="MenuConfigWidget" />
 		<ePixmap pixmap="buttons/red.png" position="80,986" size="35,35" alphatest="blend" transparent="1" />
 		<widget name="cancel" position="120,987" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1" />

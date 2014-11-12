@@ -400,6 +400,18 @@
 		<eLabel text="MyJobs" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1"/>
 	    <ePixmap position="250,210" size="256,256" pixmap="menuicons/info.png" alphatest="blend" zPosition="1"/>
 	</screen>
+	<screen name="MenuMyFansText">
+		<eLabel text="MyFans" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1"/>
+	    <ePixmap position="250,210" size="256,256" pixmap="menuicons/fan.png" alphatest="blend" zPosition="1"/>
+	</screen>
+	<screen name="MenuMyHDMIText">
+		<eLabel text="MyHDMI" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1"/>
+	    <ePixmap position="250,210" size="256,256" pixmap="menuicons/hdmicec.png" alphatest="blend" zPosition="1"/>
+	</screen>
+	<screen name="MenuMyRemotesText">
+		<eLabel text="MyRemotes" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1"/>
+	    <ePixmap position="250,210" size="256,256" pixmap="menuicons/remotecontrol.png" alphatest="blend" zPosition="1"/>
+	</screen>
 	<screen name="MenuMyOnDemandText">
 		<eLabel text="MyOnDemand" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1"/>
 	</screen>
