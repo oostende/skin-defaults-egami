@@ -532,6 +532,25 @@
         <widget name="cover2" size="400,400" position="0,282" alphatest="blend" zPosition="12" />
     </screen>
 	
+	<!-- ## XBMCAddons ## -->
+	<screen name="Splash" position="center,center" size="1920,1080" flags="wfNoBorder" title="XBMC Addons" >
+        <widget name="pixmap" position="0,0" size="1920,1080" zPosition="-1" />
+	</screen>
+	<screen name="Console2" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="Command execution...">
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMyConsoleText" />
+		<widget name="text" position="680,165" size="1160,750" font="youvix-r;28" itemHeight="50" foregroundColor="white" backgroundColor="menubackground" transparent="1" zPosition="1" />
+	</screen>
+	<screen name="XBMCAddonsaddonSetup" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" >
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMySetupText" />
+		<panel name="MenuConfigWidget" />
+		<ePixmap name="red" pixmap="buttons/red.png" position="80,986" size="35,35" alphatest="blend" transparent="1" />
+		<widget name="key_red" position="120,987" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1" /> 
+	    <ePixmap name="green" pixmap="buttons/green.png" position="80,1031" size="35,35" alphatest="blend" transparent="1" />
+		<widget name="key_green" position="120,1033" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1" />                
+ 	</screen>
+	
 	<!-- ## XMLTV Importer ## -->
 	<screen name="EPGMainSetup" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="BigMenuPanel" />
