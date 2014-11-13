@@ -452,6 +452,10 @@
 		<eLabel text="MyFritz" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1"/>
 		<ePixmap position="250,210" size="256,256" pixmap="menuicons/fritz.png" alphatest="blend" zPosition="1"/>
 	</screen>
+	<screen name="MenuMyMultiBootText">
+		<eLabel text="MyMultiBoot" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="white" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<ePixmap position="250,210" size="256,256" pixmap="menuicons/setup.png" alphatest="blend" zPosition="1"/>
+	</screen>
 	<screen name="MenuForwardArrow">
 		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="darkcolour" backgroundColor="menubackground" halign="left" valign="center" transparent="1" zPosition="1"/>
 	</screen>

@@ -322,6 +322,33 @@
         <widget name="countrymenu" position="680,165" size="1160,750" font="youvix-r;28" itemHeight="50" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1" />
 	</screen>
 	
+	<!-- ## OpenMultiBoot ## -->
+	<screen name="OMBManagerAbout" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" >
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMyMultiBootText" />
+        <panel name="MenuAboutWidget" />
+	</screen>
+	<screen name="OMBManagerInstall" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" >
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMyMultiBootText" />
+        <widget name="info" position="80,765" size="590,150" font="youvix-r;22" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="center" valign="center" zPosition="1" />
+		<widget source="list" render="Listbox" position="680,165" size="1160,750" font="youvix-r;28" itemHeight="50" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" scrollbarMode="showOnDemand" transparent="1" zPosition="1" >
+			<convert type="StringList" />
+		</widget>
+	</screen>
+	<screen name="OMBManagerList" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" >
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMyMultiBootText" />
+        <widget name="info" position="80,765" size="590,150" font="youvix-r;22" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="center" valign="center" zPosition="1" />
+		<widget source="list" render="Listbox" position="680,165" size="1160,750" font="youvix-r;28" itemHeight="50" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" scrollbarMode="showOnDemand" transparent="1" zPosition="1" >
+			<convert type="StringList" />
+		</widget>
+		<panel name="MenuButtonRed" />
+		<panel name="MenuButtonGreen" />
+		<panel name="MenuButtonYellow" />
+		<panel name="MenuButtonBlue" />
+	</screen>
+	
 	<!-- ## Picture Player FS ## -->
 	<screen name ="PictureCenterFS_Filemenue" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent" title="PictureCenterFS" >
 		<panel name="BigMenuPanel" />
