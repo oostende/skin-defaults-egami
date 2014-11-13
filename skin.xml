@@ -30,5 +30,5 @@
 			<pixmap pos="bpBottom" filename="screens/b_b.png" />
 			<pixmap pos="bpBottomRight" filename="screens/b_br.png" />
 		</borderset>
-	</windowstyle>
+	</windowstyle>	
 </skin>
