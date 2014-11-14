@@ -2064,6 +2064,17 @@
 		</widget>
 	</screen>
 	
+	<!-- ## TimeDateInput ## -->
+	<screen name="TimeDateInput" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="BigMenuPanel" />
+		<panel name="MenuMySetupText" />
+		<panel name="MenuConfigWidget" />
+		<widget name="cancel" pixmap="buttons/red.png" position="80,986" size="35,35" alphatest="blend" transparent="1"/>
+		<widget name="canceltext" position="120,987" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="ok" pixmap="buttons/green.png" position="80,1031" size="35,35" alphatest="blend" transparent="1"/>
+		<widget name="oktext" position="120,1033" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1"/>	
+	</screen>
+	
 	<!-- ## Timeshift ## -->
 	<screen name="TimeshiftState" position="center,center" size="850,350" flags="wfNoBorder" backgroundColor="transparent" title="InfoBar">
 	    <ePixmap pixmap="screens/zapbox.png" position="center,10" size="244,260" alphatest="blend" zPosition="-1" />
