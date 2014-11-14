@@ -2050,8 +2050,22 @@
 		<widget name="videofps" position="80,765" size="590,150" font="youvix-r;22" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="center" valign="center" zPosition="1"/>
 	</screen>
 	
+	<!-- ## Seek Bar ## -->
+	<screen name="Seekbar" position="center,600" size="850,70" flags="wfNoBorder" backgroundColor="transparent" title="Seekbar">
+		<ePixmap pixmap="screens/seekbox.png" position="center,center" size="800,70" alphatest="blend" zPosition="-1" />
+		<widget name="time" position="35,20" size="120,40" font="youvix-r;24" foregroundColor="white" backgroundColor="background2" transparent="1" valign="center" halign="left" zPosition="1"/>
+		<widget name="cursor" position="0,0" size="16,18" pixmap="position_arrow.png" alphatest="blend" zPosition="4"/>
+		<ePixmap pixmap="slider_back.png" position="125,35" size="600,15" alphatest="blend" zPosition="2" />
+		<widget source="session.CurrentService" render="PositionGauge" position="125,35" size="600,15" pointer="slider.png:600,0" foregroundColor="lightcolour" transparent="1" zPosition="2">
+			<convert type="ServicePosition">Gauge</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Label" position="690,20" size="120,40" font="youvix-r;24" foregroundColor="white" backgroundColor="background2" transparent="1" valign="center" halign="right" zPosition="1" >
+			<convert type="ServicePosition">Length</convert>
+		</widget>
+	</screen>
+	
 	<!-- ## Timeshift ## -->
-	<screen name="TimeshiftState" position="center,center" size="850,350" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder">
+	<screen name="TimeshiftState" position="center,center" size="850,350" flags="wfNoBorder" backgroundColor="transparent" title="InfoBar">
 	    <ePixmap pixmap="screens/zapbox.png" position="center,10" size="244,260" alphatest="blend" zPosition="-1" />
 		<widget name="statusicon" position="340,30" size="244,153" pixmaps="pvr/play_large.png,pvr/pause_large.png,pvr/stop_large.png,pvr/forward_large.png,pvr/backward_large.png,pvr/slow_large.png" zPosition="0" alphatest="blend" />
 		<widget name="speed" position="center,210" size="130,40" font="youvix-r;32" foregroundColor="white" backgroundColor="background2" transparent="1" halign="center" valign="center" zPosition="1" />
@@ -2069,7 +2083,7 @@
 			<convert type="ServicePosition">Length</convert>
 		</widget>	
 	</screen>
-	<screen name="PVRState" position="center,center" size="244,328" backgroundColor="transparent" flags="wfNoBorder" transparent="0" zPosition="2">
+	<screen name="PVRState" position="center,center" size="244,328" flags="wfNoBorder" backgroundColor="transparent" transparent="0" zPosition="2">
 		<ePixmap pixmap="screens/zapbox.png" position="0,0" size="244,253" alphatest="blend" zPosition="-1" />
 		<widget name="statusicon" position="45,30" size="244,153" pixmaps="pvr/play_large.png,pvr/pause_large.png,pvr/stop_large.png,pvr/forward_large.png,pvr/backward_large.png,pvr/slow_large.png" zPosition="0" alphatest="blend" />
 		<widget name="speed" position="center,210" size="130,40" font="youvix-r;32" foregroundColor="white" backgroundColor="background2" transparent="1" halign="center" valign="center" zPosition="4" />
