@@ -9,6 +9,7 @@ dist_install_DATA = b_b.png \
     b_tl.png \
     b_tr.png \
 	backdrop.png \
+	seekbox.png \
 	volume_background.png \
 	volume_up.png \
 	zapbox.png
