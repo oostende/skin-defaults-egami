@@ -2229,8 +2229,8 @@
 		<ePixmap pixmap="screens/virtualkeyboard.png" position="0,0" size="840,473" alphatest="blend" zPosition="-1" />
 		<ePixmap pixmap="vkey_text.png" position="9,35" zPosition="-4" size="813,78" alphatest="blend" />
 		<widget name="header" position="10,10" size="750,20" font="youvix-r;20" foregroundColor="white" backgroundColor="menubackground" transparent="1" noWrap="1" />
-		<widget name="text" position="10,20" size="810,68" font="youvix-r;46" foregroundColor="white" backgroundColor="menubackground" transparent="1" noWrap="1" halign="right" />
-		<widget name="list" position="15,100" size="810,470" foregroundColor="white" backgroundColor="menubackground" transparent="1" selectionDisabled="1" />
+		<widget name="text" position="10,20" size="815,68" font="youvix-r;46" foregroundColor="white" backgroundColor="menubackground" transparent="1" noWrap="1" halign="right" />
+		<widget name="list" position="12,110" size="815,470" foregroundColor="white" backgroundColor="menubackground" transparent="1" selectionDisabled="1" />
 	</screen>
 	
 	<!-- ## ViX Menu ## -->
