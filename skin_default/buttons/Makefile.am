@@ -10,7 +10,6 @@ dist_install_DATA = blue_pressed.png \
     button_red.png \
     button_yellow_off.png \
     button_yellow.png \
-    green-big.png \
     green.png \
     key_0.png \
     key_1.png \
