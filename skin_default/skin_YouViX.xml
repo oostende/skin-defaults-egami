@@ -710,7 +710,7 @@
 	</screen>
 	
 	<!-- ## Common Interface ## -->
-	<screen name="CiSelection" position="0,0" size="1920,1080" flags="wfNoBorder">
+	<screen name="CiSelection" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="BigMenuPanel" />
 		<panel name="MenuMyCamsText" />
 		<widget name="text" position="80,765" size="590,150" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground2" transparent="1" halign="center" valign="center" zPosition="1"/>
