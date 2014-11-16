@@ -1951,9 +1951,9 @@
 	<screen name="HarddiskSetup" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="BigMenuPanel" />
 		<panel name="MenuMySetupText" />
-		<widget name="model" position="680,165" size="1160,35" font="youvix-r;28" valign="center" halign="left" transparent="1" />
-		<widget name="capacity" position="680,200" size="1160,35" font="youvix-r;28" valign="center" halign="left" transparent="1" />
-		<widget name="bus" position="680,235" size="1160,35" font="youvix-r;28" valign="center" halign="left" transparent="1" />
+		<widget name="model" position="680,165" size="1160,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" valign="center" halign="left" transparent="1" />
+		<widget name="capacity" position="680,200" size="1160,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" valign="center" halign="left" transparent="1" />
+		<widget name="bus" position="680,235" size="1160,35" font="youvix-r;28" foregroundColor="white" backgroundColor="menubackground" valign="center" halign="left" transparent="1" />
 		<ePixmap pixmap="buttons/red.png" position="80,986" size="35,35" alphatest="blend" transparent="1" />
 		<widget source="initializetext" render="Label" position="120,987" size="268,35" font="youvix-r;24" foregroundColor="white" backgroundColor="menubackground" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1" />
 	</screen>
