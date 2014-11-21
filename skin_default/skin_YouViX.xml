@@ -665,7 +665,7 @@
 		<panel name="EPGSelectionPicon" />
 		<panel name="ChannelSelectionBouquetName" />
 		<panel name="ChannelSelectionOrbitalPosition" />
-		<widget name="list" position="680,210" size="1160,715" selectionPixmap="selectionbars/SelectionBar_H80x1160.png" backgroundColor="menubackground" foregroundColorEvent="lightcolour" foregroundColorEventSelected="white" backgroundColorEventSelected="lightcolour" foregroundColorServiceNotAvail="darkgrey" foregroundColorMarked="white" foregroundColorMarkedSelected="red" backgroundColorMarked="lightcolour" backgroundColorMarkedSelected="lightcolour" serviceItemHeight="36" serviceNumberFont="youvix-r;26" serviceNameFont="youvix-r;26" serviceInfoFont="youvix-r;24" transparent="1" zPosition="1" scrollbarMode="showOnDemand" />
+		<widget name="list" position="680,210" size="1160,715" selectionPixmap="selectionbars/SelectionBar_H80x1160.png" backgroundColor="menubackground" foregroundColorEvent="lightcolour" foregroundColorEventSelected="white" backgroundColorEventSelected="lightcolour" foregroundColorServiceNotAvail="darkgrey" foregroundColorMarked="white" foregroundColorMarkedSelected="red" backgroundColorMarked="lightcolour" backgroundColorMarkedSelected="lightcolour" serviceItemHeight="50" serviceNumberFont="youvix-r;26" serviceNameFont="youvix-r;26" serviceInfoFont="youvix-r;24" transparent="1" zPosition="1" scrollbarMode="showOnDemand" />
 		<panel name="MenuMenuButton" />
 		<panel name="MenuInfoButton" />
 		<panel name="MenuButtonRedSource" />
@@ -1936,7 +1936,7 @@
 		<panel name="BigMenuPanel" />
 		<panel name="MenuMyUpdatesText" />
 		<widget name="list" position="680,165" size="1160,300" itemHeight="50" font="youvix-r;28" selectionPixmap="selectionbars/SelectionBar_H50x1160.png" foregroundColor="white" backgroundColor="menubackground" transparent="1" scrollbarMode="showOnDemand" enableWrapAround="1" />
-		<widget name="text" position="680,550" size="1160,200" font="youvix-r;22" foregroundColor="white" backgroundColor="background2" halign="center" valign="center" transparent="1" />
+		<widget name="text" position="680,550" size="1160,200" font="youvix-r;28" foregroundColor="white" backgroundColor="background2" halign="center" valign="center" transparent="1" />
 	</screen>
 		
 	<!-- ## Standby ## -->
@@ -2230,7 +2230,7 @@
 		<ePixmap pixmap="vkey_text.png" position="9,35" zPosition="-4" size="813,78" alphatest="blend" />
 		<widget name="header" position="10,10" size="750,20" font="youvix-r;20" foregroundColor="white" backgroundColor="menubackground" transparent="1" noWrap="1" />
 		<widget name="text" position="10,25" size="815,68" font="youvix-r;46" foregroundColor="white" backgroundColor="menubackground" transparent="1" noWrap="1" halign="right" />
-		<widget name="list" position="12,105" size="815,470" foregroundColor="white" backgroundColor="menubackground" transparent="1" selectionDisabled="1" />
+		<widget name="list" position="12,105" size="815,470" font="youvix-r;34" itemHeight="68" foregroundColor="white" backgroundColor="menubackground" transparent="1" selectionDisabled="1" />
 	</screen>
 	
 	<!-- ## ViX Menu ## -->
